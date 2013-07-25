@@ -1,0 +1,307 @@
+    <!-- MOVE -->
+    <keybind key="A-KP_1">
+      <action name="MoveRelative">
+        <x>-5</x>
+        <y>5</y>
+      </action>
+    </keybind>
+    <keybind key="A-KP_2">
+      <action name="MoveRelative">
+        <x>0</x>
+        <y>5</y>
+      </action>
+    </keybind>
+    <keybind key="A-KP_3">
+      <action name="MoveRelative">
+        <x>5</x>
+        <y>5</y>
+      </action>
+    </keybind>
+    <keybind key="A-KP_4">
+      <action name="MoveRelative">
+        <x>-5</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <keybind key="A-KP_6">
+      <action name="MoveRelative">
+        <x>5</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <keybind key="A-KP_7">
+      <action name="MoveRelative">
+        <x>-5</x>
+        <y>-5</y>
+      </action>
+    </keybind>
+    <keybind key="A-KP_8">
+      <action name="MoveRelative">
+        <x>0</x>
+        <y>-5</y>
+      </action>
+    </keybind>
+    <keybind key="A-KP_9">
+      <action name="MoveRelative">
+        <x>5</x>
+        <y>-5</y>
+      </action>
+    </keybind>
+    
+    <!-- RESIZE -->
+    <keybind key="C-KP_1">
+      <action name="ResizeRelative">
+        <left>2</left>
+        <top>0</top>
+        <right>0</right>
+        <bottom>2</bottom>
+      </action>
+    </keybind>
+    <keybind key="C-KP_2">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>0</top>
+        <right>0</right>
+        <bottom>2</bottom>
+      </action>
+    </keybind>
+    <keybind key="C-KP_3">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>0</top>
+        <right>2</right>
+        <bottom>2</bottom>
+      </action>
+    </keybind>
+    <keybind key="C-KP_4">
+      <action name="ResizeRelative">
+        <left>2</left>
+        <top>0</top>
+        <right>0</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+    <keybind key="C-KP_6">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>0</top>
+        <right>2</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+    <keybind key="C-KP_7">
+      <action name="ResizeRelative">
+        <left>2</left>
+        <top>2</top>
+        <right>0</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+    <keybind key="C-KP_8">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>2</top>
+        <right>0</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+    <keybind key="C-KP_9">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>2</top>
+        <right>2</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+    <!-- inverse -->
+    <keybind key="S-C-KP_1">
+      <action name="ResizeRelative">
+        <left>-2</left>
+        <top>0</top>
+        <right>0</right>
+        <bottom>-2</bottom>
+      </action>
+    </keybind>
+    <keybind key="S-C-KP_2">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>0</top>
+        <right>0</right>
+        <bottom>-2</bottom>
+      </action>
+    </keybind>
+    <keybind key="S-C-KP_3">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>0</top>
+        <right>-2</right>
+        <bottom>-2</bottom>
+      </action>
+    </keybind>
+    <keybind key="S-C-KP_4">
+      <action name="ResizeRelative">
+        <left>-2</left>
+        <top>0</top>
+        <right>0</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+    <keybind key="S-C-KP_6">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>0</top>
+        <right>-2</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+    <keybind key="S-C-KP_7">
+      <action name="ResizeRelative">
+        <left>-2</left>
+        <top>-2</top>
+        <right>0</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+    <keybind key="S-C-KP_8">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>-2</top>
+        <right>0</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+    <keybind key="S-C-KP_9">
+      <action name="ResizeRelative">
+        <left>0</left>
+        <top>-2</top>
+        <right>-2</right>
+        <bottom>0</bottom>
+      </action>
+    </keybind>
+
+    
+    <!-- SMART MOVE AND RESIZE -->
+    <keybind key="C-A-KP_1">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>+-0</x>
+        <y>--0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-A-KP_2">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>+-0</x>
+        <y>--0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-A-KP_3">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>--0</x>
+        <y>--0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-A-KP_4">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>+-0</x>
+        <y>+-0</y>
+        <width>50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="C-A-KP_6">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>--0</x>
+        <y>+-0</y>
+        <width>50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="C-A-KP_7">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>+-0</x>
+        <y>+-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-A-KP_8">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>+-0</x>
+        <y>+-0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-A-KP_9">
+      <action name="MoveResizeTo">
+        <x>--0</x>
+        <y>+-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="C-A-KP_5">
+      <action name="if">
+        <maximized>no</maximized>
+        <then>
+          <action name="Maximize" />
+        </then>
+        <else>
+          <action name="Unmaximize" />
+          <action name="MoveResizeTo">
+            <x>center</x>
+            <y>center</y>
+            <width>50%</width>
+            <height>50%</height>
+          </action>
+        </else>
+      </action>
+    </keybind>
+  

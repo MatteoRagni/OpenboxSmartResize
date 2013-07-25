@@ -25,7 +25,7 @@ Alt + KP_N
 
 ```
 
-### Move ######
+### Resize ######
 
 To get windows resized you must use ``Ctrl`` modifier to expand (``Shift + Ctrl`` modifier to compress)
 ```

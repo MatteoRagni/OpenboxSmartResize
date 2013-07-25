@@ -304,4 +304,128 @@
         </else>
       </action>
     </keybind>
+    <!-- Move resize S-C-A- -->
+    <keybind key="S-C-A-KP_1">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>+-0</x>
+        <y>--0</y>
+        <width>33%</width>
+        <height>33%</height>
+      </action>
+    </keybind>
+    <keybind key="S-C-A-KP_2">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>+-0</x>
+        <y>center</y>
+        <width>33%</width>
+        <height>33%</height>
+      </action>
+    </keybind>
+    <keybind key="S-C-A-KP_3">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>--0</x>
+        <y>--0</y>
+        <width>33%</width>
+        <height>33%</height>
+      </action>
+    </keybind>
+    <keybind key="S-C-A-KP_4">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>+-0</x>
+        <y>center</y>
+        <width>33%</width>
+        <height>33%</height>
+      </action>
+    </keybind>
+    <keybind key="S-C-A-KP_6">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>--0</x>
+        <y>center</y>
+        <width>33%</width>
+        <height>33%</height>
+      </action>
+    </keybind>
+    <keybind key="S-C-A-KP_7">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>+-0</x>
+        <y>+-0</y>
+        <width>33%</width>
+        <height>33%</height>
+      </action>
+    </keybind>
+    <keybind key="S-C-A-KP_8">
+      <action name="if">
+        <maximized>yes</maximized>
+        <then>
+          <action name="ToggleMaximize" />
+        </then>
+      </action>
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>+-0</y>
+        <width>33%</width>
+        <height>33%</height>
+      </action>
+    </keybind>
+    <keybind key="S-C-A-KP_9">
+      <action name="MoveResizeTo">
+        <x>--0</x>
+        <y>+-0</y>
+        <width>33%</width>
+        <height>33%</height>
+      </action>
+    </keybind>
+    <keybind key="S-C-A-KP_5">
+      <action name="if">
+        <maximized>no</maximized>
+        <then>
+          <action name="Maximize" />
+        </then>
+        <else>
+          <action name="Unmaximize" />
+          <action name="MoveResizeTo">
+            <x>center</x>
+            <y>center</y>
+            <width>33%</width>
+            <height>33%</height>
+          </action>
+        </else>
+      </action>
+    </keybind>
   
